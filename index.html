@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Snigdha Chandana Saini</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Snigdha Chandana Saini</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="C:\Users\snigd\Downloads\imag.1.jpg" alt="Snigdha Saini profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section_text_p1">Hello, I'm</p>
+        <h1 class="title">Snigdha Chandana Saini</h1>
+        <p class="section_text_p2">Student</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('https://cdn-blog.novoresume.com/articles/what-is-a-cv/what-is-a-cv.png')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRokEYt0yyh6uNDKL8uksVLlhZ35laKNQgZ9g&s"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5fTvBqEpyLmHNzZVx0YlKR5wOxFoLRAtZxA&s"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/SnigdhaSaini/b22cs009_portfolio.git'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section_text_p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="C:\Users\snigd\Downloads\imag.1.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtAOp9wFwp28qZChpRXCt6jx3--dYRnHA0QQ&s"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="https://plus.unsplash.com/premium_photo-1682125773446-259ce64f9dd7?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZWR1Y2F0aW9ufGVufDB8fDB8fHww"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Btech</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am a CSE student at Kakatiya Institute of Technology and Science, Warangal. I completed my intermediate studies at SR Junior College with a score of 920 and my schooling at Raman High School. As an enthusiastic learner, I am passionate about exploring new technologies, enhancing my skills, and staying updated with the latest advancements in computer science.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://images.javatpoint.com/definition/images/experience-definition.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section_text_p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/css-icon.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://avatars.githubusercontent.com/u/317889?s=280&v=4"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SASS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://studyopedia.com/wp-content/uploads/2020/07/JavaScript-Free-Tutorial.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://blog.teamtreehouse.com/wp-content/uploads/2015/05/87a5a0fdc86455c3f94b0b0eebfdb1b9_400x400.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="data:image/png;base64,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"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Material UI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+       
+                
+    </section>
+    <section id="projects">
+      <p class="section_text_p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="https://images.shiksha.com/mediadata/shikshaOnline/mailers/2021/naukri-learning/oct/28oct/Project-Manager.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/SnigdhaSaini/b22cs009_portfolio.git'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href=https://github.com/SnigdhaSaini/b22cs009_portfolio.git"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://i.pinimg.com/736x/fc/27/fb/fc27fb81e77cc56ba4ed981d7801ceb9.jpg"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section_text_p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="https://cdn.pixabay.com/photo/2016/06/13/17/30/mail-1454731_640.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Faccounts.google.com%2F&followup=https%3A%2F%2Faccounts.google.com%2F&ifkv=AVdkyDkPjnoak31FWAEQLrBHUK6PXj0YP3_x2YB6wF8PtW8-kfjr-PxP3yqlyynIZb6mjpcKk6hx4A&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-16370950%3A1737730311698320&ddm=1">Snigdhasaini023@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRokEYt0yyh6uNDKL8uksVLlhZ35laKNQgZ9g&s"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="https://png.pngtree.com/png-clipart/20230320/original/pngtree-circle-phone-call-icon-in-black-color-png-image_8997757.png"
+            alt="Phone NUmber icon"
+            class="icon contact-icon"
+          />
+          <p>8074591113</p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Snigdha Saini All Rights Reserved.</p>
+    </footer>
+    
+  </body>
+</html>
